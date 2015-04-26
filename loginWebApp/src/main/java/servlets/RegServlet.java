@@ -28,7 +28,7 @@ public void init()
 	   
 	    if(PersonDB.getPersonList().size()==0){
 		Person person = new Person();
-		PersonDB.getPersonList().add(person); 
+		PersonDB.getPersonList().add(person);  
 		PersonDB.getPersonList().get(0).setUserName("admin");
 		PersonDB.getPersonList().get(0).setPassword("a");
 		PersonDB.getPersonList().get(0).setPrivilage("a");}
